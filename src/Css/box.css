@@ -1,0 +1,18 @@
+.box-container{
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #a626d3;
+}
+.fill{
+    background-color: #a626d3;
+}
+
+h2{
+    text-align: center;
+}

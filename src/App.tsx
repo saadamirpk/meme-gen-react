@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Greeting from "./Components/Greeting";
+import Header from "./Components/Header";
+import Meme from "./Components/Meme";
+import RenderArray from "./Components/RenderArray";
+import Counter from "./Components/Counter";
+import RenderObject from "./Components/RenderObject";
+import BoxChallenge from "./Components/BoxChallenge";
+import SignUp from "./Components/SignUp";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <React.Fragment>
+            <Header />
+            <Meme />
+        </React.Fragment>
+    );
 }
 
 export default App;

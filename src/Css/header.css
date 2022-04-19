@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #672280, #a626d3);
+}
+
+.logoimg {
+    width: 35px;
+    align-self: center;
+    margin: 0 20px 0 20px;
+}
+
+.flex-item-end {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.title {
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.subtitle {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}

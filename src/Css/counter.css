@@ -1,0 +1,56 @@
+.holder{
+width: fit-content;
+text-align: center;
+margin: auto;
+position: relative;
+color: white;
+font-size: 30px;
+}
+
+.Btn{
+  position: absolute;
+  z-index: 10;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+}
+
+.normalBtn{
+    background-color: #a626d3;  
+}
+
+.hoverBtn{
+  background-color: #672280;
+}
+
+.minus{
+    top: 50px;
+    left: -25px;
+}
+
+.plus{
+    top: 50px;
+    left: 75px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.counterBall{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    background-color: plum;
+    border-radius: 50px;
+    line-height: 80px;
+}
