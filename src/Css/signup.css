@@ -1,58 +1,58 @@
-.container{
-    background-color: #672280;
-    width: 100%;
-    padding: 50px 10% 50px 10%;
+.container {
+  background-color: #672280;
+  width: 100%;
+  padding: 50px 10% 50px 10%;
 }
 
-.my-form{
-    background-color: white;
-    width: 80%;
-    border-radius: 12px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+.my-form {
+  background-color: white;
+  width: 80%;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.title{
-    color:white
+.title {
+  color: white;
 }
 
-button{
-    width: 100px;
-    margin: auto;
+button {
+  width: 100px;
+  margin: auto;
 }
 
-.labeltitle{
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.labeltitle {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-.check-space{
-    margin-top: 20px;
+.check-space {
+  margin-top: 20px;
 }
 
-.field-space{
-    padding: 12px 12px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #672280;
-    border-radius: 12px;
-    margin: 5px auto 10px auto;
+.field-space {
+  padding: 12px 12px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #672280;
+  border-radius: 12px;
+  margin: 5px auto 10px auto;
 }
 
-.sub{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #672280;
-    color: white;
-    font-family: 'Karla';
-    border: none;
-    padding: 15px 32px;
-    width: 150px;
-    border-radius: 12px;
+.sub {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #672280;
+  color: white;
+  font-family: "Karla";
+  border: none;
+  padding: 15px 32px;
+  width: 150px;
+  border-radius: 12px;
 }
-.sub-hover{
-    background-color: #430d57;
-    cursor: pointer;
+.sub-hover {
+  background-color: #430d57;
+  cursor: pointer;
 }
