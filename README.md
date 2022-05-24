@@ -1,4 +1,4 @@
-# Simple Expense Tracker with React
+# Meme Generator & Mini Sample Projects with React
 
 [View live Demo](https://saadamirpk.github.io/meme-gen-react)
 
